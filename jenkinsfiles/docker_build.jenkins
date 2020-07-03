@@ -34,7 +34,7 @@ pipeline {
             steps {
                 echo " ============== start pushing image =================="
                 sh '''
-                docker push dartraalc:latest . '
+                docker push ffeddd/lc:latest . '
                 '''
             }
         }
